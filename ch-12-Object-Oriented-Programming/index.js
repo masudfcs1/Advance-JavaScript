@@ -12,3 +12,5 @@ const react = {
 }
 
 react.draw()
+react.weight = 80
+react.draw()
