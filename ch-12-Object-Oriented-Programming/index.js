@@ -4,12 +4,10 @@ const react = {
 
     draw: function() {
         console.log('Never Give Up.');
-        this.propartice()
-        console.log(this);
+        this.printanother()
 
     },
-
-    propartice: function() {
+    printanother: function() {
         console.log('Talk About Height ' + this.height);
         console.log('Talk About Weight ' + this.weight);
     }
@@ -21,11 +19,14 @@ react.draw()
 react.weight = 80
 react.draw()
 
-
-var another = {
+anotherobj = {
     weight: 10,
     height: 20,
-    print: react.propartice
+    print: react.printanother
+
 }
 
-another.print()
+anotherobj.print()
+
+anotherobj.weight = 80
+anotherobj.print()
