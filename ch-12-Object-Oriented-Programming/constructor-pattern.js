@@ -1,6 +1,6 @@
 const Rectangle = function(height, weight) {
 
-    this.height = height,
+    this.hteight = height,
         this.weight = weight,
 
         this.draw = function() {
@@ -9,15 +9,15 @@ const Rectangle = function(height, weight) {
 
         },
         this.printanother = function() {
-            console.log('Talk About Height ' + this.height);
+            console.log('Talk About Height ' + this.hteight);
             console.log('Talk About Weight ' + this.weight);
         }
 
 
 }
-var ract1 = createreact(10, 20);
+var ract1 = new Rectangle(10, 20);
 ract1.draw()
-var ract1 = createreact(30, 40);
+var ract1 = new Rectangle(30, 40);
 ract1.draw()
 var ract1 = createreact(50, 60);
 ract1.draw()
