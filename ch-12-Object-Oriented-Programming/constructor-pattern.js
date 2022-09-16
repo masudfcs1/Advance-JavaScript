@@ -19,5 +19,5 @@ var ract1 = new Rectangle(10, 20);
 ract1.draw()
 var ract1 = new Rectangle(30, 40);
 ract1.draw()
-var ract1 = createreact(50, 60);
+var ract1 = new Rectangle(50, 60);
 ract1.draw()
