@@ -21,3 +21,8 @@ var ract1 = createreact(30, 40);
 ract1.draw()
 var ract1 = createreact(50, 60);
 ract1.draw()
+
+var ract1 = createreact(50, 60);
+ract1.draw()
+
+// ytuyqugkjh  gakjhbkjhs
